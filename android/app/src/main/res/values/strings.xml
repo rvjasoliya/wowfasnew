@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">com.wowfas.mobile</string>
+    <string name="facebook_app_id">390964715781859</string>
+    <string name="fb_login_protocol_scheme">fb390964715781859</string>
+</resources>
