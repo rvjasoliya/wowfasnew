@@ -11,7 +11,7 @@ class AppTextStyle {
   } //Text Sized
 
 
-  static TextStyle filedTextStyle({double fontSize=13}) {
+  static TextStyle filedTextStyle({double fontSize=13,}) {
     return  TextStyle(
         fontFamily: "ProductSans",
         color: Color(0xFF363B64),
@@ -20,4 +20,16 @@ class AppTextStyle {
   }
 
 
+  static TextStyle h3TitleTextStyle({
+    Color color = Colors.black,
+    double fontSize = 18,
+
+    FontWeight fontWeight = FontWeight.w500,
+  }) {
+    return TextStyle(
+        fontFamily: "ProductSans",
+        color: color,
+        fontSize: fontSize,
+        fontWeight:fontWeight);
+  }
 }
